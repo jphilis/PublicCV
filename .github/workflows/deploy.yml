@@ -46,6 +46,9 @@ jobs:
           </html>
           EOF
 
+          # 3. Add CNAME for domain stuff
+          echo "cv.philis.se" > public/CNAME
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
